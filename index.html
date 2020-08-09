@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>File Uploder</title>
+</head>
+
+<body>
+    <div class="inputContainer" ondrop="dropHandler(event);" ondragover="dragOverHandler(event);">
+        <div class="image">
+            <label for="select"> <a title="Click to upload images" style="text-decoration: none;"><img src="/undraw_uploading_go67.svg"></a></label>
+        </div>
+        <label for="select" class="custom-file">
+            <i class="fa fa-upload" aria-hidden="true"></i> &nbsp;Click to Upload your image 
+        </label>
+        <input type="file" name="select" id="select" multiple accept=".jpg, .jpeg, .png ,.bmp,.webp,.gif">
+    </div>
+    <div id="outputContainer"></div>
+    <script src="main.js"></script>
+</body>
+
+</html>
