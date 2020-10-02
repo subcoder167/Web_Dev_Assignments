@@ -1,0 +1,12 @@
+<li class="item-a" value="prod1">
+                    <div class="box">
+                    <div class="prod_img">
+                      <img src="prod_1.jpg">
+                    </div>
+                    <div class="prod_name"><h2>iPhone 11 Pro Max</h2></div>
+                    <div class="prod_price"><h4>Rs. 10,9000/-</h4></div>
+                    <div class="prod_rating">
+                      <div class="star-ratings-sprite"><span style="width:52%" class="star-ratings-sprite-rating"></span></div>
+                    </div>
+                    </div>
+                </li>
